@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeraldBanila</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" href="img/loGo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            });
+        });
+
+
+        $(document).ready(function(){
+        $("#linknav a").on("click", function(){
+            $("#linknav").toggleClass('show');
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <script src="script.js"></script> 
+    <div class="container">
+<!-- Navbar-Section -->
+
+        <!-- <div class="header">
+            <a href="index.html" class="logo"><img src="img/loGo-fff.png" alt="G logo"></a>
+
+            <nav class="navbar">
+                <a href="#homelink">About</a>
+                <a href="#service">Services</a>
+                <a href="#myportfolio">Portfolio</a>
+                <a href="#artgallery">Art Gallery</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div> -->
+
+        <div id="navheaders">
+            <nav>
+                <label class="logo"> <a href="index.html">G</a></label>
+
+                <ul id="linknav" class="navlink">
+                    <li><a class="active" href="#homelink">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#myportfolio">Portfolio</a></li>
+                    <li><a href="#artgallery">Art Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <label id="icon">
+                    <i class="fas fa-bars"></i>
+                </label>
+            </nav>
+        </div>
+
+<!-- End-Navbar-Section -->
+
+<!-- First-Banner-Section -->
+
+        <div class="sectionhead">
+            <h1>Hello G!</h1>
+
+
+                    <p>I am Gerald <span> A Passionate Artist</span> <span>Web Developer</span></p>
+  
+        </div>
+
+<!-- End-Frist-Banner -->
+
+<!-- Second-Banner-About-Me -->
+
+        <div id="homelink" class="secondhead">
+            <div class="secondheadpic">
+                <img src="img/IMG_2000.jpg" alt="Gerald Pogi">
+            </div>
+            <div class="secondheadtext">
+                <h2>Gerald Banila</h2>
+                <p>Hello, I'm Gerald B. Banila, a graduate of PUP Binan and a passionate web developer. I have a strong affinity for art, which I believe greatly influences my approach to web design and development. My career journey began as a web developer, where I immersed myself in the intricacies of the development side, learning and growing with each project. Now, my career goal is to transition into the role of a Project Manager, with the aim of leading and coordinating teams and projects to ensure client satisfaction. My journey from a web developer to a prospective Project Manager has been an exciting and educational one, and I look forward to continuing to expand my skill set in the field.</p>
+            </div>
+        </div>
+
+<!-- End-Second-Banner-About-Me -->
+
+<!-- Services-Section -->
+
+<div id="service" class="serv-sec">
+    <div class="serv-text">
+        <h2>Services</h2>
+    </div>
+</div>
+
+<div class="service-section">
+
+    <div class="service-row">
+
+        <div class="service-column">
+            <div class="service-card">
+                <img src="img/webdev.png" alt="">
+                <h2>Web Design</h2>
+                <p>I am front end Web developer, also a wordpress dev</p>
+            </div>
+        </div>
+
+        <div class="service-column">
+            <div class="service-card">
+                <img src="img/SEO.png" alt="">
+                <h2>SEO</h2>
+                <p>Web optimization and ensuring search results are relevant</p>
+            </div>
+        </div>
+
+        <div class="service-column">
+            <div class="service-card">
+                <img src="img/trbsht.png" alt="">
+                <h2>Troubleshooting</h2>
+                <p>Identifying potential cause of the problem and Ensuring the best solutions</p>
+            </div>
+        </div>
+
+
+        <div class="service-column">
+            <div class="service-card">
+                <img src="img/maintenance.png" alt="">
+                <h2>Site Maintenance</h2>
+                <p>Securing website is running to it's full capacity.</p>
+            </div>
+        </div>
+
+        <div class="service-column">
+            <div class="service-card">
+                <img src="img/UI.jpg" alt="">
+                <h2>UI/UX Design</h2>
+                <p>Creating a user-friendly interfaces that will easliy understand.</p>
+            </div>
+        </div>
+
+        <div class="service-column">
+            <div class="service-card">
+                <img src="img/draw.png" alt="">
+                <h2>Digital Drawing</h2>
+                <p>My hobbies, and helping me to exxpress my feelings and thought.</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- <div class="service-row">
+
+        <div class="service-column">
+            <div class="service-card">
+                <img src="img/maintenance.png" alt="">
+                <h2>Site Maintenance</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+        <div class="service-column">
+            <div class="service-card">
+                <img src="img/UI.jpg" alt="">
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+        <div class="service-column">
+            <div class="service-card">
+                <img src="img/draw.png" alt="">
+                <h2>Digital Drawing</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+    </div> -->
+
+</div>
+
+<!-- End-Services-Section -->
+
+        <div class="portf-sec">
+            <div id="myportfolio" class="portf-text" style="margin-bottom: 20px;">
+                <h2>My Portfolio</h2>
+            </div>
+            <div class="artgal-btnsec">
+                <a href="#">
+                    <button class="artgal-btn" >See more</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="portfolio-sec">
+            <div class="row-firstproj">
+                <div class="column-proj">
+                    <a href="#">
+                        <img src="img/ricoma.png" alt="ricoma-project">
+                    </a>
+                </div>
+                <div class="column-text">
+                    <h2>Ricoma</h2>
+                    <!-- <i class="fa-solid fa-code"><span> :Wordpress</span></i>
+                    <i class="fa-solid fa-database"><span> :PHP</span></i>
+                    <i class="fa-solid fa-calendar-days"><span> :2023</span></i> -->
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium distinctio placeat excepturi labore, vitae aliquam quasi explicabo provident eum alias, suscipit ullam neque unde nam maiores, beatae repellat facilis sit!</p>
+                </div>
+            </div>
+
+            <div class="row-firstproj">
+                <div class="column-proj">
+                    <a href="#">
+                        <img src="img/barosa.png" alt="ricoma-project">
+                    </a>
+                </div>
+                <div class="column-text">
+                    <h2>Barossa</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo eius magni delectus? Facilis, commodi quibusdam vitae id natus provident nostrum voluptates explicabo fuga, adipisci doloremque! Nostrum provident eum vero accusantium ea itaque quam modi debitis. Unde, laborum dolorem. Delectus quod et eveniet beatae accusamus dolores provident non a illum consectetur.</p>
+                </div>
+            </div>
+
+            <div class="row-firstproj">
+                <div class="column-proj">
+                    <a href="#">
+                        <img src="img/vbc.png" alt="ricoma-project">
+                    </a>
+                </div>
+                <div class="column-text">
+                    <h2>Vitamin Beverage Concept</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium distinctio placeat excepturi labore, vitae aliquam quasi explicabo provident eum alias, suscipit ullam neque unde nam maiores, beatae repellat facilis sit!</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="artgal-sec">
+            <div id="artgallery" class="artgal-text">
+                <h2>My ArtGallery</h2>
+            </div>
+            <div class="artgal-btnsec">
+                <a href="#">
+                    <button class="artgal-btn" >See more</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <!-- ??????? how do i create the grid -->
+                <div
+                  class="imgcollage"
+                  style="background-image: url(img/Gerald.png)"
+                ></div>
+                <div
+                  class="imgcollage"
+                  style="background-image: url(img/JDM.png)"
+                ></div>
+                <div
+                  class="imgcollage"
+                  style="background-image: url(img/ge.jpg)"
+                ></div>
+                <div
+                  class="imgcollage"
+                  style="background-image: url(img/Rafael.png)"
+                ></div>
+                <div
+                class="imgcollage"
+                style="background-image: url(img/KuyaAlex.png)"
+                ></div>
+                <div
+                class="imgcollage"
+                style="background-image: url(img/Jovi.jpg)"
+                ></div>
+                <div
+                class="imgcollage"
+                style="background-image: url(img/LaaabV1.png)"
+                ></div>
+                <div
+                class="imgcollage"
+                style="background-image: url(img/ChabertV1.png)"
+                ></div>
+                <div
+                class="imgcollage"
+                style="background-image: url(img/Cordyceps.png)"
+                ></div>
+                <div
+                class="imgcollage"
+                style="background-image: url(img/hiker.jpg)"
+                ></div>
+                <div
+                class="imgcollage"
+                style="background-image: url(img/MILO.png)"
+                ></div>
+                <div
+                class="imgcollage"
+                style="background-image: url(img/buyet.png)"
+                ></div>
+        </div>
+
+        <!-- <div class="portfolio-section">
+            <div class="portfolio-wrap">
+                <a href="#">
+                    <img src="img/ricoma.png" alt="ricoma-project">
+                </a>
+            </div>
+            <div class="portfolio-description">
+                <h2>Ricoma</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium distinctio placeat excepturi labore, vitae aliquam quasi explicabo provident eum alias, suscipit ullam neque unde nam maiores, beatae repellat facilis sit!</p>
+            </div>
+            <div id="barossa" class="portfolio-wrap">
+                <a href="#">
+                    <img src="img/barosa.png" alt="ricoma-project">
+                </a>
+            </div>
+            <div id="barossatxt" class="portfolio-description">
+                <h2>Barossa</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium distinctio placeat excepturi labore, vitae aliquam quasi explicabo provident eum alias, suscipit ullam neque unde nam maiores, beatae repellat facilis sit!</p>
+            </div>
+            <div class="portfolio-wrap">
+                <a href="#">
+                    <img src="img/vbc.png" alt="ricoma-project">
+                </a>
+            </div>
+            <div class="portfolio-description">
+                <h2>Vitamin Beverage Concept</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium distinctio placeat excepturi labore, vitae aliquam quasi explicabo provident eum alias, suscipit ullam neque unde nam maiores, beatae repellat facilis sit!</p>
+            </div>
+        </div> -->
+
+<!-- Contact-Section -->
+
+
+<div id="contact" class="contact-section">
+    <div class="contact-text">
+        <h2>Get in Touch</h2>
+    </div>
+    <div class="contact-box">
+        <div class="contact box">
+            <h2>Send Me Message!</h2>
+            <form>
+                <div class="formBox">
+                    <div class="row50">
+                        <div class="inputBox">
+                            <span>First Name</span>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="inputBox">
+                            <span>Last Name</span>
+                            <input type="text" placeholder="Name">
+                        </div>
+                    </div>
+
+                    <div class="row50">
+                        <div class="inputBox">
+                            <span>Email</span>
+                            <input type="text" placeholder="Email">
+                        </div>
+                        <div class="inputBox">
+                            <span>Mobile</span>
+                            <input type="text" placeholder="Your Phone">
+                        </div>
+                    </div>
+
+                    <div class="row100">
+                        <div class="inputBox">
+                            <span>Message</span>
+                            <textarea placeholder="Write your message here..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row100">
+                        <div class="inputBox">
+                            <input type="submit" value="Send">
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+
+        <div class="contact info">
+            <h2>Contact info</h2>
+            <div class="infoBox">
+                <div>
+                    <span><i class="fa-solid fa-location-arrow"></i></span>
+                    <p>Brgy. Langkiwa Binan Laguna</p>
+                </div>
+                <div>
+                    <span><i class="fa-solid fa-envelope"></i></span>
+                    <a href="mailto:banilagerald@gmail.com">banilagerald7@gmail.com</a>
+                </div>
+                <div>
+                    <span><i class="fa-solid fa-phone"></i></span>
+                    <a href="tel:+63908-261-6057">+63908-261-6057</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15464.988401066094!2d121.05202345833771!3d14.297070478463835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d7998cec8699%3A0x1dd88a1f63af734d!2sLangkiwa%2C%20Bi%C3%B1an%2C%20Laguna!5e0!3m2!1sen!2sph!4v1692194038558!5m2!1sen!2sph" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
+
+
+<!-- End-Contact-Section -->
+
+
+        <footer>
+            <div class="footer-container">
+                <div class="img-footer">
+                    <a href="index.html" class="logo"><img src="img/loGo-fff.png" alt="G logo"></a>
+                </div>
+                <div class="footernav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#homelink">About me</a></li>
+                        <li><a href="#artgallery">My Art</a></li>
+                        <li><a href="#myportfolio">Portfolio</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="socialicons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footerbottom">
+                <p>Copyright &copy;2023; Designed by <span class="designer">Gerald Banila</span></p>
+            </div>
+        </footer>
+
+    </div>
+</body>
+<script>
+    document.addEventListener ('scroll', () => {
+        const header = document.querySelector('.header');
+
+        if (window.scrollY > 0) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    })
+
+</script>
+</html>
