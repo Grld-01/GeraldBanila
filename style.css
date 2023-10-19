@@ -1009,3 +1009,26 @@ width: 100%;
 }
 }
 /*----------------------------End-Footer-Section-------------------------------*/
+
+/*---------------------------Other-Project-Section-----------------------------------*/
+/*** Responsive Styles tablet ***/
+@media (max-width: 980px) and (min-width: 768px) {
+  .container {
+    justify-content: center;
+  }
+
+  .portfolio-item {
+    width: 40%;
+  }
+}
+
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+  .portfolio-item {
+    width: 100%;
+  }
+  .first-banner {
+    padding: 60px;
+}
+}
+/*--------------------------End-Other-Project-Section-----------------------------------*/
