@@ -1025,10 +1025,10 @@ width: 100%;
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
   .portfolio-item {
-    width: 100%;
+    width: 100% !important;
   }
   .first-banner {
-    padding: 60px;
+    padding: 60px !important;
 }
 }
 /*--------------------------End-Other-Project-Section-----------------------------------*/
