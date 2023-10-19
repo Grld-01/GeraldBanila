@@ -830,18 +830,23 @@ nav #icon {
 
   .contact{}
 
-  .contact-box {
+  /* .contact-box {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas:
     "box" 
     "info"
     "map";
+  } */
+
+  .contact-box {
+    display: flex;
+    flex-direction: column;
   }
 
-  .map {
+  /* .map {
     min-height: 300px;
-  }
+  } */
 
   .formBox .row50{
     display: flex;
