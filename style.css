@@ -455,7 +455,6 @@ nav #icon {
     font-size: 20px;
     text-transform: uppercase;
     background-color: #4e51a2;
-    border-radius: 100px;
     border: #fff solid 2px;
     margin: 1vw 7vw;
     cursor: pointer;
@@ -548,7 +547,6 @@ nav #icon {
   font-size: 20px;
   text-transform: uppercase;
   background-color: #4e51a2;
-  border-radius: 100px;
   border: #fff solid 2px;
   margin: 1vw 7vw;
   cursor: pointer;
@@ -606,10 +604,52 @@ nav #icon {
     color: #fff;
 }
 
+.column-text p {
+  margin-bottom: 10px;
+}
+
+
 .row-firstproj {
     display: flex;
     flex-wrap: nowrap;
 }
+
+.project-icon i {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.project-icon {
+  display: flex;
+  justify-content: flex-start !important;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button.prj-btn {
+  padding: 10px;
+  font-weight:700;
+  background-color: #4e51a2;
+  border: #fff solid 2px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button.prj-btn:hover {
+background-color: #fff;
+border: 2px solid #4e51a2;
+color: #4e51a2;
+}
+
+.prj-section {
+display: flex;
+justify-content: flex-start;
+width: 100%;
+}
+
 /*End of Another Section to try*/
 
 
@@ -969,5 +1009,3 @@ nav #icon {
 }
 }
 /*----------------------------End-Footer-Section-------------------------------*/
-
-

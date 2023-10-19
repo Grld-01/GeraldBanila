@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+        }
+
+        .first-banner {
+            background-color: #2e2d79;
+            color: #fff;
+            text-align: center;
+            margin-top: 80px;
+            padding: 100px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .portfolio-item {
+            background-color: #fff;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 30%;
+            height: 40vh;
+        }
+
+        .portfolio-item h2 {
+            font-size: 1.5rem;
+        }
+
+        .portfolio-item p {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+<div class="proj-container">
+
+    <div id="navheaders">
+        <nav>
+            <label class="logo"> <a href="index.html">G</a></label>
+
+            <ul id="linknav" class="navlink">
+                <li><a class="active" href="#homelink">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#myportfolio">Portfolio</a></li>
+                <li><a href="#artgallery">Art Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <label id="icon">
+                <i class="fas fa-bars"></i>
+            </label>
+        </nav>
+    </div>
+
+    <div class="first-banner">
+        <div>
+            <h1>My Portfolio</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="portfolio-item">
+            <h2>Website 1</h2>
+            <p>Description of Website 1.</p>
+        </div>
+
+        <div class="portfolio-item">
+            <h2>Website 2</h2>
+            <p>Description of Website 2.</p>
+        </div>
+
+        <div class="portfolio-item">
+            <h2>Website 3</h2>
+            <p>Description of Website 3.</p>
+        </div>
+
+        <div class="portfolio-item">
+            <h2>Website 4</h2>
+            <p>Description of Website 1.</p>
+        </div>
+
+        <div class="portfolio-item">
+            <h2>Website 5</h2>
+            <p>Description of Website 2.</p>
+        </div>
+
+        <div class="portfolio-item">
+            <h2>Website 6</h2>
+            <p>Description of Website 3.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
