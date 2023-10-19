@@ -402,10 +402,14 @@ nav #icon {
     min-height: 40vh;
     margin: 20px 10px;
     border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 
   .service-card img{
-    width: 70%;
+    width: 100%;
   }
 
   .service-card:hover {
@@ -416,10 +420,6 @@ nav #icon {
   }
 
   @media (max-width: 767px) {
-    .service-card {
-      min-height: 30vh;
-    }
-
     .serv-text h2 {
       font-size: 25px;
     }
@@ -477,7 +477,7 @@ nav #icon {
   .col-lg-6 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-template-rows: 250px 250px;
+    grid-template-rows: 350px 350px 350px;
     grid-gap: 15px;
     padding: 3vw 5vw;
     background-color: #2e2d79;
@@ -563,6 +563,7 @@ nav #icon {
     flex-wrap: wrap;
     gap: 30px;
     column-gap: 0px;
+    padding-bottom: 50px;
 }
 
 .column-proj {
