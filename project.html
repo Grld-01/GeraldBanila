@@ -5,6 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" href="img/loGo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            });
+        });
+
+
+        $(document).ready(function(){
+        $("#linknav a").on("click", function(){
+            $("#linknav").toggleClass('show');
+            });
+        });
+
+    </script>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -59,11 +80,11 @@
             <label class="logo"> <a href="index.html">G</a></label>
 
             <ul id="linknav" class="navlink">
-                <li><a class="active" href="https://grld-01.github.io/GeraldBanila/index.html#homelink">About</a></li>
-                <li><a href="https://grld-01.github.io/GeraldBanila/#service">Services</a></li>
-                <li><a href="https://grld-01.github.io/GeraldBanila/#myportfolio">Portfolio</a></li>
-                <li><a href="https://grld-01.github.io/GeraldBanila/#artgallery">Art Gallery</a></li>
-                <li><a href="https://grld-01.github.io/GeraldBanila/#contact">Contact</a></li>
+                <li><a class="active" href="/index.html#homelink">About</a></li>
+                <li><a href="/index.html#service">Services</a></li>
+                <li><a href="/index.html#myportfolio">Portfolio</a></li>
+                <li><a href="/index.html#artgallery">Art Gallery</a></li>
+                <li><a href="/index.html#contact">Contact</a></li>
             </ul>
             <label id="icon">
                 <i class="fas fa-bars"></i>
