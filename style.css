@@ -1011,6 +1011,113 @@ width: 100%;
 /*----------------------------End-Footer-Section-------------------------------*/
 
 /*---------------------------Other-Project-Section-----------------------------------*/
+.col-proj {
+  width: 100%;
+  overflow: hidden;
+  margin: 0px auto;
+}
+
+.col-proj img {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  object-position: top center;
+  transition: all 7s ease-in-out;
+}
+
+.col-proj:hover img {
+  object-position: bottom center;
+}
+
+/* .column-proj {
+  width: 50%;
+} */
+
+.col-text {
+  width: 100%;
+  margin: auto;
+  color: #000;
+}
+
+.col-text p {
+margin-bottom: 10px;
+}
+
+
+/* .project-page {
+  display: flex;
+  flex-wrap: nowrap;
+} */
+
+.portfolio-icon i {
+display: flex;
+gap: 5px;
+margin-bottom: 5px;
+font-size: 20px;
+}
+
+.portfolio-icon {
+display: flex;
+justify-content: flex-start !important;
+flex-direction: column;
+width: 100%;
+margin-bottom: 20px;
+}
+
+button.prtf-btn {
+padding: 10px;
+font-weight:700;
+background-color: #4e51a2;
+border: #fff solid 2px;
+color: #fff;
+cursor: pointer;
+}
+
+button.prtf-btn:hover {
+background-color: #fff;
+border: 2px solid #4e51a2;
+color: #4e51a2;
+}
+
+/* Your existing POP UP CSS styles here */
+    
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.close-popup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.col-text .portfolio-icon {
+  display: none;
+}
+
+.portfolio-item p {
+  display: none;
+}
+
 /*** Responsive Styles tablet ***/
 @media (max-width: 980px) and (min-width: 768px) {
   .container {
