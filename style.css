@@ -222,7 +222,7 @@ nav #icon {
 }
 
 .sectionhead h1 {
-    font-size: 10vw;
+    font-size: 6vw;
     color: #fff;
     cursor: zoom-in;
 }
@@ -231,6 +231,7 @@ nav #icon {
     color: #fff;
     font-size: 18px;
     text-align: center;
+    width: 40%;
 }
 
 .sectionhead h1:hover {
@@ -255,6 +256,39 @@ nav #icon {
 
 .sectionhead p {
     transition: 300ms ease all;
+}
+
+.sectionhead-btnsec {
+  margin-top: 40px;
+}
+
+button.artgal-btn {
+  padding: 20px 80px;
+}
+
+button.artgal-btn {
+  font-size: 18px !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+button.artgal-btn:hover {
+  background: #4e51a2;
+  border: solid 2px #ffffff;
+  color: #ffffff;
+}
+
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+  .sectionhead p {
+    width: 80%;
+  }
+
+  .sectionhead h1 {
+    font-size: 8.5vw !important;
+  }
 }
 
 /*-------------------------------End-1st-Header-Banner-Section-----------------------------------*/
