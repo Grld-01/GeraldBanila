@@ -1249,4 +1249,14 @@ p#popup-description {
 .port-container span#close-popup {
   font-size: 30px !important;
 }
+
+.prj-section button.prtf-btn.vw-web {
+  background: #242263 !important;
+}
+
+.prj-section button.prtf-btn.vw-web:hover {
+  background: #4a75b2 !important;
+  border: 2px solid #4a75b2 ;
+  color: #ffffff;
+}
 /*-----------------End-Project-Section---------------*/
