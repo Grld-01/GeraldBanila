@@ -1245,4 +1245,8 @@ p#popup-description {
   text-align: left !important;
   margin-bottom: 10px;
 }
+
+.port-container span#close-popup {
+  font-size: 30px !important;
+}
 /*-----------------End-Project-Section---------------*/
