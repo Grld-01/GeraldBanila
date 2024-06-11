@@ -1190,6 +1190,12 @@ color: #4e51a2;
     padding: 60px !important;
 }
 }
+
+@media all and (max-width: 480px) {
+  .popup-content {
+    width: 90% !important;
+  }
+}
 /*--------------------------End-Other-Project-Section-----------------------------------*/
 
 /*-----------------Project-Section-------------------*/
