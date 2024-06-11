@@ -357,7 +357,6 @@ button.artgal-btn:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .secondheadtext h2 {
@@ -386,6 +385,7 @@ button.artgal-btn:hover {
 
 .secondheadtext {
     width: 100%;
+    height: 100vh;
 }
 
 }
