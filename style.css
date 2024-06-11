@@ -289,6 +289,20 @@ button.artgal-btn:hover {
   .sectionhead h1 {
     font-size: 8.5vw !important;
   }
+
+  button.artgal-btn {
+    font-size: 18px !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  button.artgal-btn:hover {
+    background: #4e51a2;
+    border: solid 2px #ffffff;
+    color: #ffffff;
+  }
 }
 
 /*-------------------------------End-1st-Header-Banner-Section-----------------------------------*/
