@@ -312,13 +312,13 @@ button.artgal-btn:hover {
 @media all and (max-width: 480px) {
   .sectionhead h1 {
     width: 50%;
-    font-size: 14vw !important;
+    font-size: 16vw !important;
     text-align: center !important;
-    line-height: .8em;
+    line-height: .9em;
 }
 
 .sectionhead h1:hover {
-    transform: scale(1.3) !important;
+    transform: scale(1.4) !important;
 }
 
 .sectionhead p {
