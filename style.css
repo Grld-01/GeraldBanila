@@ -1240,4 +1240,9 @@ color: #4e51a2;
 .portfolio-item p {
   font-size: 1rem;
 }
+
+p#popup-description {
+  text-align: left !important;
+  margin-bottom: 10px;
+}
 /*-----------------End-Project-Section---------------*/
