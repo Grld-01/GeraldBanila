@@ -266,13 +266,13 @@
             </div>
     
             <div class="portfolio-item">
-                <h2>VBC</h2>
-                <p>VBC Made is a leading toll manufacturer in the Philippines specializing in custom-made supplements and beverages. They offer a range of manufacturing and packaging services, including tablets, capsules, powders, and liquids, adhering to FDA-certified Good Manufacturing Practices (GMP). VBC Made helps entrepreneurs and established businesses create high-quality, innovative health products designed to stand out in the market.</p>
+                <h2>Casaligna</h2>
+                <p>Casa Ligna is an online furniture store that offers a curated selection of high-quality, handcrafted furniture pieces. The company focuses on exceptional craftsmanship and design, providing customers with beautifully designed items that enhance any living space.</p>
     
                 <div class="project-page">
                     <div class="col-proj">
-                        <a href="https://vbcmade.com/" target="_blank">
-                            <img src="img/vbc.png" alt="ricoma-project">
+                        <a href="https://casaligna.com/" target="_blank">
+                            <img src="img/casa.png" alt="ricoma-project">
                         </a>
                     </div>
                     <div class="col-text">
@@ -566,7 +566,7 @@
     <div class="contact-box">
         <div class="contact box">
             <h2>Send Me Message!</h2>
-            <form id="contactForm">
+            <form action="https://formspree.io/f/myyrrwbl" method="POST">
                 <div class="formBox">
                     <div class="row50">
                         <div class="inputBox">
@@ -586,7 +586,7 @@
                         </div>
                         <div class="inputBox">
                             <span>Mobile</span>
-                            <input type="tel" name="mobile" id="mobile" placeholder="Your Phone">
+                            <input type="tel" name="mobile" id="mobile" placeholder="Your Phone" required>
                             <span class="error-message" id="mobile-error" style="color: red;"></span>
                         </div>
                     </div>
@@ -600,7 +600,8 @@
         
                     <div class="row100">
                         <div class="inputBox">
-                            <input type="submit" value="Send">
+                            <!-- <input type="submit" value="Send"> -->
+                            <button type="submit" value="send">Submit Message</button>
                         </div>
                     </div>
         
@@ -733,6 +734,20 @@ const prtfBtns = document.querySelectorAll('.prtf-btn');
     closePopup.addEventListener('click', () => {
         popup.style.display = 'none';
     });
+
+        // This function clears all the input fields when the page is loaded
+        function clearInputFields() {
+            // Get all input and textarea elements in the form
+            var inputs = document.querySelectorAll("form input, form textarea");
+            
+            // Iterate over each element and clear its value
+            inputs.forEach(function(input) {
+                input.value = "";
+            });
+        }
+
+        // Event listener for when the page loads
+        window.onload = clearInputFields;
 
 </script>
 </html>
