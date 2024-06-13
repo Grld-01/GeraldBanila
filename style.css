@@ -311,7 +311,7 @@ button.artgal-btn:hover {
 
 @media all and (max-width: 480px) {
   .sectionhead h1 {
-    width: 50%;
+    width: 60%;
     font-size: 16vw !important;
     text-align: center !important;
     line-height: .9em;
