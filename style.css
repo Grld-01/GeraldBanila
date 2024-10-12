@@ -282,6 +282,23 @@ button.artgal-btn:hover {
   color: #242263;
 }
 
+@keyframes floatText {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.secondheadtext h2 {
+  display: inline-block;
+  animation: floatText 3s ease-in-out infinite;
+}
+
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
   .sectionhead p {
