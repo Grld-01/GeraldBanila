@@ -390,6 +390,15 @@ button.artgal-btn:hover {
 
 }
 
+.secondheadpic .hover-image {
+  transition: ease all 300ms; /* Smooth transition effect */
+}
+
+.secondheadpic:hover .hover-image {
+  content: url('img/Hover-img.jpg'); /* Replace with the path to the second image */
+  transition: ease all 300ms; /* Smooth transition effect */
+}
+
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
   .secondheadtext h2 {
