@@ -419,7 +419,7 @@ button.artgal-btn:hover {
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
   .secondheadtext h2 {
-    font-size: 25px;
+    font-size: 45px;
     padding-top: 20px;
   }
 }
