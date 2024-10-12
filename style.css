@@ -491,7 +491,7 @@ button.artgal-btn:hover {
   }
 
   .service-card:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
   }
   .service-card {
     transition: transform 0.5s ease-in-out;
