@@ -81,6 +81,27 @@
             justify-content: center;
             align-items: center;
         }
+
+        /*display none project*/
+        .portfolio-item {
+            display: none;
+        }
+
+        .portfolio-item:nth-child(-n+4) {
+            display: block; /* Show the first 3 items */
+        }
+
+        .seemore-button-sec {
+            background-color: #4e51a2;
+        }
+
+        .btnsm-section {
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 30px;
+        }
+
     </style>
 </head>
 <body>
@@ -108,191 +129,6 @@
             <h1>My Portfolio</h1>
         </div>
     </div>
-
-    <!-- <div class="container">
-        <div class="portfolio-item">
-            <h2>Website 1</h2>
-            <p>Description of Website 1.</p>
-
-                <div class="project-page">
-                    <div class="col-proj">
-                        <a href="#">
-                            <img src="img/ricoma.png" alt="ricoma-project">
-                        </a>
-                    </div>
-                    <div class="col-text">
-                        <div class="portfolio-icon">
-                            <i class="fa-brands fa-wordpress"><span> :Wordpress CMS</span></i>
-                            <i class="fa-solid fa-asterisk"><span> :Divi Builder</span></i>
-                            <i class="fa-solid fa-database"><span> :PHP</span></i>
-                            <i class="fa-solid fa-calendar-days"><span> :2023</span></i>
-                        </div>
-
-                        <div class="prj-section">
-                            <a href="#">
-                                <button class="prtf-btn" >See more</button>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-        </div>
-
-        <div class="popup" id="popup">
-            <div class="popup-content">
-                <span class="close-popup" id="close-popup">&times;</span>
-                <h2 id="popup-title"></h2>
-                <p id="popup-description"></p>
-                <div id="popup-icons" class="portfolio-icon"></div>
-            </div>
-        </div>
-
-        <div class="portfolio-item">
-            <h2>Website 2</h2>
-            <p>Description of Website 2.</p>
-
-            <div class="project-page">
-                <div class="col-proj">
-                    <a href="#">
-                        <img src="img/ricoma.png" alt="ricoma-project">
-                    </a>
-                </div>
-                <div class="col-text">
-                    <div class="portfolio-icon">
-                        <i class="fa-brands fa-wordpress"><span> :Wordpress CMS</span></i>
-                        <i class="fa-solid fa-asterisk"><span> :Divi Builder</span></i>
-                        <i class="fa-solid fa-database"><span> :PHP</span></i>
-                        <i class="fa-solid fa-calendar-days"><span> :2023</span></i>
-                    </div>
-
-                    <div class="prj-section">
-                        <a href="#">
-                            <button class="prtf-btn" >See more</button>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-        <div class="portfolio-item">
-            <h2>Website 3</h2>
-            <p>Description of Website 3.</p>
-
-            <div class="project-page">
-                <div class="col-proj">
-                    <a href="#">
-                        <img src="img/ricoma.png" alt="ricoma-project">
-                    </a>
-                </div>
-                <div class="col-text">
-                    <div class="portfolio-icon">
-                        <i class="fa-brands fa-wordpress"><span> :Wordpress CMS</span></i>
-                        <i class="fa-solid fa-asterisk"><span> :Divi Builder</span></i>
-                        <i class="fa-solid fa-database"><span> :PHP</span></i>
-                        <i class="fa-solid fa-calendar-days"><span> :2023</span></i>
-                    </div>
-
-                    <div class="prj-section">
-                        <a href="#">
-                            <button class="prtf-btn" >See more</button>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-        <div class="portfolio-item">
-            <h2>Website 4</h2>
-            <p>Description of Website 1.</p>
-
-            <div class="project-page">
-                <div class="col-proj">
-                    <a href="#">
-                        <img src="img/ricoma.png" alt="ricoma-project">
-                    </a>
-                </div>
-                <div class="col-text">
-                    <div class="portfolio-icon">
-                        <i class="fa-brands fa-wordpress"><span> :Wordpress CMS</span></i>
-                        <i class="fa-solid fa-asterisk"><span> :Divi Builder</span></i>
-                        <i class="fa-solid fa-database"><span> :PHP</span></i>
-                        <i class="fa-solid fa-calendar-days"><span> :2023</span></i>
-                    </div>
-
-                    <div class="prj-section">
-                        <a href="#">
-                            <button class="prtf-btn" >See more</button>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-        <div class="portfolio-item">
-            <h2>Website 5</h2>
-            <p>Description of Website 2.</p>
-
-            <div class="project-page">
-                <div class="col-proj">
-                    <a href="#">
-                        <img src="img/ricoma.png" alt="ricoma-project">
-                    </a>
-                </div>
-                <div class="col-text">
-                    <div class="portfolio-icon">
-                        <i class="fa-brands fa-wordpress"><span> :Wordpress CMS</span></i>
-                        <i class="fa-solid fa-asterisk"><span> :Divi Builder</span></i>
-                        <i class="fa-solid fa-database"><span> :PHP</span></i>
-                        <i class="fa-solid fa-calendar-days"><span> :2023</span></i>
-                    </div>
-
-                    <div class="prj-section">
-                        <a href="#">
-                            <button class="prtf-btn" >See more</button>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-        <div class="portfolio-item">
-            <h2>Website 6</h2>
-            <p>Description of Website 3.</p>
-
-            <div class="project-page">
-                <div class="col-proj">
-                    <a href="#">
-                        <img src="img/ricoma.png" alt="ricoma-project">
-                    </a>
-                </div>
-                <div class="col-text">
-                    <div class="portfolio-icon">
-                        <i class="fa-brands fa-wordpress"><span> :Wordpress CMS</span></i>
-                        <i class="fa-solid fa-asterisk"><span> :Divi Builder</span></i>
-                        <i class="fa-solid fa-database"><span> :PHP</span></i>
-                        <i class="fa-solid fa-calendar-days"><span> :2023</span></i>
-                    </div>
-
-                    <div class="prj-section">
-                        <a href="#">
-                            <button class="prtf-btn" >See more</button>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-</div> -->
 
 <div class="port-container">
     <div class="portfolio-item">
@@ -669,6 +505,12 @@
 
 </div>
 
+<div class="seemore-button-sec">
+    <div class="btnsm-section">
+        <button class="prtf-btn see-more" onclick="seeMoreProjects()">See more</button>
+    </div>
+</div>
+
 <!-- Footer-Section -->
 
 <footer>
@@ -726,6 +568,30 @@
     closePopup.addEventListener('click', () => {
         popup.style.display = 'none';
     });
+
+    /*Function for See More button*/
+    let visibleItems = 3;  // Number of items visible initially
+const itemsPerClick = 3;  // Number of items to show per click
+
+function seeMoreProjects() {
+    // Get all portfolio items
+    const items = document.querySelectorAll('.portfolio-item');
+    
+    // Loop through and reveal the next set of hidden items
+    for (let i = visibleItems; i < visibleItems + itemsPerClick; i++) {
+        if (items[i]) {
+            items[i].style.display = 'block';
+        }
+    }
+    
+    // Update the number of visible items
+    visibleItems += itemsPerClick;
+    
+    // If no more items are left to show, hide the "See more" button
+    if (visibleItems >= items.length) {
+        document.querySelector('.see-more').style.display = 'none';
+    }
+}
 
 </script>
 </html>
