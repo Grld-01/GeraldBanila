@@ -79,11 +79,12 @@
 
         <div id="homelink" class="secondhead">
             <div class="secondheadpic">
-                <img src="img/IMG_2000.jpg" alt="Gerald Pogi" class="hover-image">
+                <img src="img/IMG_2000.webp" alt="Gerald Pogi" class="hover-image">
             </div>
             <div class="secondheadtext">
                 <h2>Gerald Banila</h2>
                 <p>Hello, I'm Gerald B. Banila, a graduate of PUP Binan and a passionate web developer. I have a strong affinity for art, which I believe greatly influences my approach to web design and development. My career journey began as a web developer, where I immersed myself in the intricacies of the development side, learning and growing with each project. Now, my career goal is to transition into the role of a Project Manager, with the aim of leading and coordinating teams and projects to ensure client satisfaction. My journey from a web developer to a prospective Project Manager has been an exciting and educational one, and I look forward to continuing to expand my skill set in the field.</p>
+                <button onclick="openPDF()" class="myresume">View My CV</button>
             </div>
         </div>
 
@@ -677,7 +678,6 @@
                 <p>Copyright &copy;2024 | Portfolio by <span class="designer">Gerald Banila</span></p>
             </div>
         </footer>
-
     </div>
 </body>
 <script>
@@ -752,5 +752,12 @@ const prtfBtns = document.querySelectorAll('.prtf-btn');
                 input.value = "";
             });
         }
+    // My CV
+    function openPDF() {
+        // Path to your PDF file
+        const pdfUrl = 'img/BanilaGerald-MyCV.pdf';
+        // Open the PDF in a new tab
+        window.open(pdfUrl, '_blank');
+    }
 </script>
 </html>

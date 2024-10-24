@@ -412,8 +412,28 @@ button.artgal-btn:hover {
 }
 
 .secondheadpic:hover .hover-image {
-  content: url('img/Hover-img.jpg'); /* Replace with the path to the second image */
+  content: url('img/Hover-img.webp'); /* Replace with the path to the second image */
   transition: ease all 300ms; /* Smooth transition effect */
+}
+
+/*CV Button*/
+
+button.myresume {
+  font-size: 18px !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: transparent;
+  border: solid 2px #ffffff;
+  color: #ffffff;
+  padding: 20px 50px;
+  margin-top: 30px;
+}
+
+button.myresume:hover {
+  background: #fff;
+  color: #242263;
 }
 
 /*** Responsive Styles Smartphone Only ***/
