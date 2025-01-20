@@ -416,6 +416,13 @@ button.artgal-btn:hover {
   transition: ease all 300ms; /* Smooth transition effect */
 }
 
+@media (max-width:980px) {
+  .secondheadtext {
+      height: auto !important;
+      padding: 50px 20px !important;
+  }
+}
+
 /*CV Button*/
 
 button.myresume {
