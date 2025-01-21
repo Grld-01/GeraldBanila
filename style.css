@@ -847,6 +847,12 @@ width: 100%;
   }
 }
 
+@media (max-width:1024px) and (min-width:768px) {
+  .portfolio-item {
+      width: 45% !important;
+  }
+}
+
 
 /*----------------------------End-Portfolio-Homepage-Section-----------------------------------*/
 
