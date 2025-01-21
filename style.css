@@ -836,7 +836,7 @@ width: 100%;
   }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1024px) {
   .prj-section {
       display: flex !important;
       flex-direction: column !important;
