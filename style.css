@@ -836,6 +836,17 @@ width: 100%;
   }
 }
 
+@media (max-width: 980px) {
+  .prj-section {
+      display: flex !important;
+      flex-direction: column !important;
+  }
+
+  button.prtf-btn.vw-web {
+      width: 100% !important;
+  }
+}
+
 
 /*----------------------------End-Portfolio-Homepage-Section-----------------------------------*/
 
